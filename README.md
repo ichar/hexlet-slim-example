@@ -28,6 +28,34 @@ drwxrwxr-x 8 mkaro mkaro 4096 Sep 26 18:03 .git
 -rw-r--r-- 1 mkaro mkaro   76 Sep 26 14:02 README.md
 -rw-r--r-- 1 mkaro mkaro  253 Sep 26 17:46 users.php
 
+git init
+git add .
+$ git commit -m "init"
+$ git branch -M main
+
+Create repo in GitHub manully before!! advancementalhealthbot.telegram
+use just main branch !!
+
+$ git remote add origin https://github.com/ichar/advancementalhealthbot.telegram.git
+$ git push -u origin main
+
+---------------------------
+
+Update repository:
+
+$ git add .
+$ git status
+$ git commit -m "info"
+$ git push -u origin master
+
+---------------------------
+
+Add or Remove repository:
+
+$ git remote add origin https://github.com/ichar/tvmlivehealth.git
+$ git rm -f --cached advancementalhealth
+
+
 php -S localhost:8080
 
 http://localhost:8080/
