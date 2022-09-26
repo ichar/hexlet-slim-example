@@ -15,11 +15,21 @@ $app->get('/', function ($request, $response) {
     // return $response->write('Welcome to Slim!');
 });
 $app->get('/users', function ($request, $response) {
-    return $response->write("GET /users\n");
+    $response = $response->write("GET /users\n");
+    return $response->withStatus(302);
 });
-
 $app->post('/users', function ($request, $response) {
     return $response->write("POST /users\n");
+});
+$app->get('/companies', function ($request, $response) {
+    $companies = range(1, 100, 1);
+    #print_r($companies);
+    print_r(array_slice($companies, 0, 5));
+    return $response->write("GET /companies\n");
+});
+
+$app->post('/companies', function ($request, $response) {
+    return $response->write("POST /companies\n");
 });
 
 $app->run();
