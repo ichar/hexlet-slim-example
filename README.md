@@ -33,10 +33,10 @@ git add .
 $ git commit -m "init"
 $ git branch -M main
 
-Create repo in GitHub manully before!! advancementalhealthbot.telegram
+Create repo in GitHub manully before!! hexlet-slim-example
 use just main branch !!
 
-$ git remote add origin https://github.com/ichar/advancementalhealthbot.telegram.git
+$ git remote add origin https://github.com/ichar/hexlet-slim-example.git
 $ git push -u origin main
 
 ---------------------------
@@ -52,8 +52,8 @@ $ git push -u origin master
 
 Add or Remove repository:
 
-$ git remote add origin https://github.com/ichar/tvmlivehealth.git
-$ git rm -f --cached advancementalhealth
+$ git remote add origin https://github.com/ichar/hexlet-slim-example
+$ git rm -f --cached hexlet-slim-example
 
 
 php -S localhost:8080
