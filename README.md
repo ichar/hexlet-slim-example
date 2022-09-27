@@ -55,6 +55,7 @@ Add or Remove repository:
 $ git remote add origin https://github.com/ichar/hexlet-slim-example
 $ git rm -f --cached hexlet-slim-example
 
+sudo lsof -i :8080
 
 php -S localhost:8080
 
